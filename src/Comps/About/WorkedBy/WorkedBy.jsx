@@ -16,7 +16,7 @@ const WorkedBy = () => {
         useEffect(()=>{
             const fetchCats = async () => {
                 try {
-                    const response = await axios.get("Assets/WorkedBy.json");
+                    const response = await axios.get("Assets/workedBy.json");
                     console.log("workers fetched:", response.data); 
                     setWorkers(response.data)
                 } catch (error) {
