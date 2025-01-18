@@ -3,11 +3,23 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import CartContextProvider from './Comps/Context/CartContext';
+import FavoriteContextProvider from './Comps/Context/FavoriteContext';
+import AuthContextProvider from './Comps/Context/AuthContext';
+import firebaseConfig from './Comps/FirebaseConfig'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <firebaseConfig>
+      <CartContextProvider>
+        <FavoriteContextProvider>
+          <AuthContextProvider>
+            <App />
+          </AuthContextProvider>
+        </FavoriteContextProvider>
+      </CartContextProvider>
+    </firebaseConfig>
   </React.StrictMode>
 );
 

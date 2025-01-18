@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#Offer{
+    padding: 3rem 0;
+}
+/* Main Container */
+.main-container {
+    background: linear-gradient(to right, black, black, #2f2f2f, black);
+    height: 70vh;
+    padding: 20px;
+}
+
+.text-success {
+    color: #00ff85 !important;
+}
+  /* Timer Styling */
+.time-box {
+    background: white;
+    color: black;
+    height: 4rem;
+    width: 4rem;
+    margin-left: 1rem;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+}
+
+.time-box span {
+    display: block;
+    font-size: 0.8rem;
+    color: #777;
+}
+
+.product-image {
+    width: 100%;
+    height: auto;
+    margin-top: -2rem;
+    transform: scale(1.2) rotateY(180deg);
+}
+.Buy-Now{
+    background-color: #00ff85;
+    transition: .3s;
+}
+.Buy-Now:hover{
+    background-color: #06ae5d;
+}

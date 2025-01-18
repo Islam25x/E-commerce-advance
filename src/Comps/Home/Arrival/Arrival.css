@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+#Arrival{
+    padding: 2rem 0;
+}
+#Arrival .left , #Arrival .right-bottom .right-bottom-left {
+    margin-top: 3rem;
+    color: white;
+    background-color: black;
+    background-image: url('../../../../public/images/playstation.png');
+    background-size: cover;
+    height: 35rem;
+}
+#Arrival .right{
+    margin-top: 3rem;
+    height: 92%;
+}
+#Arrival .right .right-top{
+    position: relative; 
+    background-color: #0d0d0d;
+    height: 50%;
+    color: white;
+}
+#Arrival .right .right-top-photo{
+    width: 100%;
+    right: 100%;
+    position: absolute;
+    top: -3.28rem;
+    left: 5.5rem;
+    transform: rotateY(180deg) scale(.7);
+}
+#Arrival .right .right-top .right-top-ctn{
+    position: relative;
+    width: 45%;
+    padding: 20% 0 0 2rem;
+    z-index: 1;
+}
+#Arrival .left .left-ctn{
+    padding: 65% 0 0 2rem;
+}
+#Arrival .right-bottom {
+    height: 50%;
+}
+#Arrival .right-bottom .right-bottom-left , #Arrival .right-bottom .right-bottom-right{
+    background-color: #0d0d0d;
+    margin-top: 1rem;
+    background-size: cover;
+    background-image: url('https://s3-alpha-sig.figma.com/img/e565/9d57/2977438364a41d7e8c9d1e9a794d43ed?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BklIqYZjEAgLkqZrVLSuIy2TkTn7wbsYqS0h9wIkII8gnD4Z77q9rmvpg41i-70572hqV0V9dQ9ae~9bugzorMuKNT0xs1ThKvM7mSpAaiaoMvAU2BduinjwKaoBgoRvhpICl8nZNylapGQb2T-9u1yu-KZObsvgazhbYUrSi6TtolN1Hv853KGASUfyPpAp4UHcpX67967VX4TNOX9U~zMVrBhypzVo~Psl0AXCUHp6Ng0eaAjZHzmAlBwfDVEfyJ3xlDsV~42aBpsygxx37GKscfTlCZ~yI4FGL7KCjCJ-Ebu3PxfecmdMBQR3MfjM3ErE1R98m9yZS-1itEMmVg__');
+    height: 16.5rem;
+}
+#Arrival .right-bottom .right-bottom-right{
+    color: white;
+    background-image: url('https://s3-alpha-sig.figma.com/img/1531/5cd1/5102562cf220504d288fa568eaa816dd?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=cIbcdJIeoS6cF3FoT-qdxMP6rls7M3zjd0F8Y39rn-PHDIgSCkJa9ZRw5bgL7N1gzf9H0r6VihwCzMv2o4zxpOahOXkHKnt9I8N6WOdrcJ7euQiW0gQf7MRozViGyQmqQqyGuCssZuY0P9Kv1HGLKEoJR6gDIvz6C~jN2eyACidg3KlU8ZUB7Pyk4rrnYRWo317vPfnVh9sauRGWL~ivFdpPCgOmq0t~1BEIHP8-bQwedlgcTZTbc0ZW0oNk7MmmczB-y~YrS2Jq-6nWnxj9F-IA9mqY1s8EMqIbwurtIwMNCIW9alvoOqQhqlu3eQIpsr5eMHzc69aIL73Z5jOVLQ__');
+}
+#Arrival .right-bottom .right-bottom-left-ctn , #Arrival .right-bottom .right-bottom-right .right-bottom-right-ctn{
+    padding-top: 43%;
+    margin-left: 2rem;
+}
