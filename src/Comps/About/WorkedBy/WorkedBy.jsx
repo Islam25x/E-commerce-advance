@@ -17,7 +17,7 @@ const WorkedBy = () => {
             const fetchCats = async () => {
                 try {
                     const response = await axios.get("Assets/WorkedBy.json");
-                    console.log("Workers fetched:", response.data); 
+                    console.log("workers fetched:", response.data); 
                     setWorkers(response.data)
                 } catch (error) {
                     console.error("Error fetching Workers:", error);
