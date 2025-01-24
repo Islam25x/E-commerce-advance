@@ -26,27 +26,11 @@ return (
         <Swiper
             className="position-relative"
             breakpoints={{
-            // Small screens (e.g., mobile)
-            320: {
-                slidesPerView: 1,
-                spaceBetween: 10,
-            },
-            // Medium screens (e.g., tablets)
-            768: {
-                slidesPerView: 2,
-                spaceBetween: 20,
-            },
-            // Large screens (e.g., desktops)
-            1024: {
-                slidesPerView: 3,
-                spaceBetween: 30,
-            },
-            // Extra large screens
-            1440: {
-                slidesPerView: 4,
-                spaceBetween: 40,
-            },
-            }}
+                320: { slidesPerView: 2, spaceBetween: 10 },
+                768: { slidesPerView: 2, spaceBetween: 20 },
+                1024: { slidesPerView: 3, spaceBetween: 30 },
+                1440: { slidesPerView: 4, spaceBetween: 40 },
+                }}
             spaceBetween={40}
             slidesPerView={4}
         >

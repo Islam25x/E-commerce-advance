@@ -54,11 +54,11 @@ return (
         <Swiper
             className="position-relative"
             breakpoints={{
-            320: { slidesPerView: 1, spaceBetween: 10 },
-            768: { slidesPerView: 2, spaceBetween: 20 },
-            1024: { slidesPerView: 3, spaceBetween: 30 },
-            1440: { slidesPerView: 4, spaceBetween: 40 },
-            }}
+                320: { slidesPerView: 2, spaceBetween: 10 },
+                768: { slidesPerView: 2, spaceBetween: 20 },
+                1024: { slidesPerView: 3, spaceBetween: 30 },
+                1440: { slidesPerView: 4, spaceBetween: 40 },
+                }}
             spaceBetween={40}
             slidesPerView={4}
         >
@@ -128,7 +128,7 @@ return (
         ) : (
         <Row>
             {BestSellings.map((BestSelling) => (
-            <Col lg={3} md={6} sm={12} key={BestSelling.id}>
+            <Col lg={3} md={6} sm={6} key={BestSelling.id}>
                 <div className="product">
                 <div className="product-top d-flex justify-content-between">
                     <img src={BestSelling.image} alt={BestSelling.name} />

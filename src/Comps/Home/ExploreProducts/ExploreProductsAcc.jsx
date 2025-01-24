@@ -94,11 +94,11 @@ return (
             ref={swiperRef}
             modules={[Navigation]}
             breakpoints={{
-            320: { slidesPerView: 1, spaceBetween: 10 },
-            768: { slidesPerView: 2, spaceBetween: 20 },
-            1024: { slidesPerView: 3, spaceBetween: 30 },
-            1440: { slidesPerView: 4, spaceBetween: 40 },
-            }}
+                320: { slidesPerView: 2, spaceBetween: 10 },
+                768: { slidesPerView: 2, spaceBetween: 20 },
+                1024: { slidesPerView: 3, spaceBetween: 30 },
+                1440: { slidesPerView: 4, spaceBetween: 40 },
+                }}
             spaceBetween={40}
             slidesPerView={4}
         >
@@ -196,7 +196,7 @@ return (
         ) : (
         <Row>
             {groupedProducts.map((group, index) => (
-            <Col lg={3} md={6} sm={12} key={index}>
+            <Col lg={3} md={6} sm={6} key={index}>
                 <div className="product-grid">
                 {group.map((item) => (
                     <div className="product" key={item.id}>

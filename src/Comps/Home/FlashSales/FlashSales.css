@@ -231,7 +231,24 @@
 
 /* Mobile */
 @media (max-width: 767px){
+    .swiper-nav-buttons {
+        transform: translateY(50%) scale(.7);
+        margin-top: 5rem;
+        width: 7rem;
+    }
+    .product .product-des, .product-grid .product-des {
+        background-color: white;
+        position: relative;
+        margin-top: 9.2rem;
+        z-index: 11;
+    }
+    .product .addCart, .product .RemoveCart {
+        bottom: 4rem;
 
+    }
+    .product:hover > .addCart , .product:hover .RemoveCart{
+        bottom: 9rem;
+    }
 }
 
 /* Small Screans */
@@ -274,5 +291,15 @@
     }
     .product:hover > .addCart , .product:hover .RemoveCart{
         bottom: 7rem;
+    }
+    .swiper-nav-buttons {
+        display: flex;
+        position: absolute;
+        transform: translateY(-50%);
+        margin-top: 2rem;
+        width: 7rem;
+        padding: 0 20px;
+        top: 0;
+        right: 0;
     }
 }

@@ -4,8 +4,11 @@
     box-sizing: 0;
 }
 #features {
-    padding: 6rem 0;
+    padding: 7rem 0;
     position: relative;
+}
+#features .features-ctn {
+    margin: 2rem 0;
 }
 #features .features-ctn .icon , #Achievement .Achievement-ctn .icon {
     display: flex;
@@ -42,5 +45,5 @@
     font-size: .8rem;
     position: absolute;
     right: 0;
-    bottom: -2rem;
+    bottom: -6rem;
 }

@@ -53,7 +53,7 @@ const CategoryProducts = () => {
           <h1 className="mt-5">{productCategory}</h1>
           <Row>
             {catProducts.map((catProduct) => (
-              <Col lg={3} md={6} sm={12} key={catProduct.id}>
+              <Col lg={3} md={6} sm={6} key={catProduct.id}>
                 <div className="product">
                   <div className="product-top d-flex justify-content-between">
                     <img src={catProduct.image} alt={catProduct.name} />
