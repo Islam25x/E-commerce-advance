@@ -17,16 +17,16 @@ const Cart = () => {
         </p>
         <div className="cart-top text-center">
           <Row>
-            <Col lg={3} md={3} sm={3}>
+            <Col lg={3} md={3} sm={12}>
               <p>Product</p>
             </Col>
-            <Col lg={3} md={3} sm={3}>
+            <Col lg={3} md={3} sm={12}>
               <p>Price</p>
             </Col>
-            <Col lg={3} md={3} sm={3}>
+            <Col lg={3} md={3} sm={12}>
               <p>Quantity</p>
             </Col>
-            <Col lg={3} md={3} sm={3}>
+            <Col lg={3} md={3} sm={12}>
               <p>Subtotal</p>
             </Col>
           </Row>
@@ -38,8 +38,8 @@ const Cart = () => {
           ) : (
             <div className="cartItem text-center" key={cartItem.id}>
               <Row>
-                <Col lg={3} md={3} sm={3}>
-                  <div className="left d-flex ms-3" style={{ height: "100%" }}>
+                <Col lg={3} md={3} sm={12}>
+                  <div className="left d-flex justify-content-center ms-3" style={{ height: "100%" }}>
                     <div className="photo d-flex" style={{ margin: "auto 0" }}>
                       <span
                         className="Close"
@@ -58,10 +58,10 @@ const Cart = () => {
                     </h6>
                   </div>
                 </Col>
-                <Col lg={3} md={3} sm={3}>
+                <Col lg={3} md={3} sm={12}>
                   <p>{Convert(cartItem.new_price)}</p>
                 </Col>
-                <Col lg={3} md={3} sm={3}>
+                <Col lg={3} md={3} sm={12}>
                   <div
                     className="cartItem-quantity"
                     style={{ alignContent: "center", height: "100%" }}
@@ -91,7 +91,7 @@ const Cart = () => {
                     />
                   </div>
                 </Col>
-                <Col lg={3} md={6} sm={6}>
+                <Col lg={3} md={3} sm={12}>
                   <p>{Convert(cartItem.new_price * cartItem.quantity)}</p>
                 </Col>
               </Row>

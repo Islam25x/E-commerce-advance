@@ -79,6 +79,8 @@
     padding: 2rem 1rem;
     border: 2px solid black;
     border-radius: .2rem;
+    margin-top: 3rem;
+
 }
 #Cart .right p{
     font-weight: 500;
@@ -95,4 +97,47 @@
     height: 1rem;
     width: 1rem;
     border-radius: 50%;
+}
+@media (max-width: 767px){
+    #Cart .cartItem-quantity .btns {
+        top: .6rem;
+        right: 44.5%;
+    }
+    #Cart .right{
+        margin-top: 4rem;
+    }
+}
+
+/* Small Screans */
+@media (min-width: 768px) and (max-width: 991px){
+    #Cart .cartItem-quantity .btns {
+        top: 2rem;
+        right: 34.5%;
+    }
+}
+
+/* Medium Screans  */
+@media (min-width: 992px){
+    #Cart .cartItem-quantity .btns {
+        top: 2rem;
+        right: 39.5%;
+    }
+
+}
+/* Large Screans  */
+@media (min-width: 1200px) {
+    #Cart .cartItem-quantity .btns {
+        top: 2rem;
+        right: 41.5%;
+    }
+}
+/* // XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    #Cart .cartItem-quantity .btns {
+        top: 2rem;
+        right: 41.5%;
+    }
+    #Cart .right{
+        margin-top: 0rem;
+    }
 }

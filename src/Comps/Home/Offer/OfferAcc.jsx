@@ -31,10 +31,10 @@ const OfferAcc = () => {
                 <Row>
                     {/* Left Section */}
                     <Col lg={6} md={6} sm={12} className="text-white">
-                        <div className="left" style={{margin:'7rem 0 0 1rem'}}>
+                        <div className="left">
                             <p className="text-success fw-bold">Categories</p>
-                            <h1 className="" style={{width:'60%', letterSpacing:'.2rem'}}>Enhance Your Music Experience</h1>
-                            <div className="timer d-flex" style={{margin:'2.5rem 0 2.5rem -1rem'}}>
+                            <h1 className="">Enhance Your Music Experience</h1>
+                            <div className="timer d-flex" >
                                 <div className="time-box">
                                     {String(days).padStart(2,'0')} <span>Days</span>
                                 </div>
