@@ -33,8 +33,7 @@ useEffect(() => {
 // State for viewAll
 const [viewAll, setViewAll] = useState(false);
 // stars
-const { renderStars, desProduct, AddCart, Cart, RemoveCart, IsAdded } =
-    useCart();
+const { renderStars, desProduct, AddCart, Cart, RemoveCart, IsAdded } = useCart();
 const { AddFavorite, RemoveFavorite, IsAddedFav } = useFavorite();
 
 return (

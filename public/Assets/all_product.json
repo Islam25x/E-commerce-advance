@@ -285,4 +285,19 @@
     "pices": 55,
     "stars": 4.5
   }
+  ,
+  {
+    "id": 18,
+    "name": "Music Sub",
+    "category": "Electronics",
+    "image": "images/Sapp.png",
+    "new_price": 660,
+    "salepersent": "",
+    "salebg": "#f5f5f5",
+    "Type":"Explore",
+    "color1": "black",
+    "color2": "#db4444",
+    "pices": 55,
+    "stars": 4.5
+  }
 ]
