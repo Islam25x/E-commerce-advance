@@ -15,7 +15,6 @@ A responsive, modular, and multilingual e-commerce UI built using **React**, **T
 - 🌐 Multi-language (i18n)
 - 📦 Component-based structure
 - ⚙️ Redux for state management
-- 🌙 Dark Mode Ready (if implemented)
 
 ---
 
