@@ -80,7 +80,7 @@ const OfferAcc = () => {
                     {/* Right Section */}
                     <Col lg={6} md={6} sm={12} className="text-center">
                         <img
-                            src="images/Sapp.png"
+                            src="/images/Sapp.png"
                             alt="Sapp"
                             className="img product-image"
                         />

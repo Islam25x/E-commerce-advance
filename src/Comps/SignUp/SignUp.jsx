@@ -109,10 +109,7 @@ const SignUp = () => {
             <Container>
                 <Row>
                     <Col lg={6} md={6} sm={12}>
-                        <img
-                            src="https://s3-alpha-sig.figma.com/img/75f3/94c0/a1c7dc5b68a42239311e510f54d8cd59?Expires=1737331200&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Ral6hyL6iuGwkBDKBFumysabow6TfNXTBRd5RNCgFu8ciITXLnkAF5n3asTub1a2iu4Xgm5iA-dmvElp-bRPJtxApYnrLMKhH-Q5GifzRiV6xOVvsm~vVMMSYRQ-w8Br0fW1scOlxB~Uw0-bnJViKYdQekYyzt-OwSCgJx6bo08NcmvvO8UK8K1wlemT2oXwE9BXWzseX-4HE5k1YnB5LstcmCmxQCO4bAFyF1rANxBz1Wt8J-Z9QrcM2JrYSAkb90d4GPl~jnBWjUYjk34f3~mNIVUecWrcgpJHRuVI8Qq1FynE9aUir~DKSzHBhQmDO0mwq2hVbf2Cos3H3Pd8TQ__"
-                            alt="Sign Img"
-                        />
+                        <img src="/images/login.jpg" alt="Sign Img" />
                     </Col>
                     <Col lg={6} md={6} sm={12}>
                         <div className="right-side">

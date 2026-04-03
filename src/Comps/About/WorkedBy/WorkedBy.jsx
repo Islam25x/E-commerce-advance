@@ -76,7 +76,7 @@ const WorkedBy = () => {
                             <div className="worker-card">
                                 <div className="top">
                                     <img
-                                        src={Worker.image || '/default-image.jpg'} // Fallback image if no image
+                                        src={Worker.image || '/images/head_1.png.png'} // Fallback image if no image
                                         alt={Worker.name || 'Worker Image'}
                                     />
                                 </div>

@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
     list-style: none;
 }
 /* left side  */
@@ -37,25 +37,25 @@
     object-fit: cover;
     z-index: -1;
 }
-#HomeTop .swiper .silde-content {
+#HomeTop .swiper .slide-content {
     margin: 3rem 0 0 3.5rem;
     color: white;
     width: 30%;
 }
-#HomeTop .swiper .silde-content .top img{
+#HomeTop .swiper .slide-content .top img{
     width: 3.5rem;
 }
-#HomeTop .swiper .silde-content .top .title{
+#HomeTop .swiper .slide-content .top .title{
     display: flex;
     align-items: self-end;
     margin-left: .5rem;
 }
-#HomeTop .swiper .silde-content h1{
+#HomeTop .swiper .slide-content h1{
     font-size: 3rem;
     margin-top: 1rem;
     line-height: 3.7rem;
 }
-#HomeTop .swiper .silde-content .bottom button{
+#HomeTop .swiper .slide-content .bottom button{
     color: white;
     background-color: transparent;
     padding-bottom: .3rem;
@@ -63,13 +63,13 @@
     border: none;
     border-bottom: 1px solid white;
 }
-#HomeTop .swiper .silde-content .bottom i{
+#HomeTop .swiper .slide-content .bottom i{
     display: flex;
     align-items: center;
     margin: 1rem 0 0 .5rem;
     transition: .3s;
 }
-#HomeTop .swiper .silde-content .bottom:hover > i{
+#HomeTop .swiper .slide-content .bottom:hover > i{
     margin-left: 1rem;
 }
 .swiper-pagination-bullet , .swiper-pagination-bullet-active{

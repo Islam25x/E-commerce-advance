@@ -81,7 +81,7 @@ const Footer = () => {
                 <p>Save $3 with App New User Only</p>
                 <div className="d-flex">
                 <a href="/google-play">
-                    <img src="images/download.png" alt="Google Play" style={{width:'100%'}} />
+                    <img src="/images/download.png" alt="Google Play" style={{width:'100%'}} />
                 </a>
                 </div>
                 <div className="social-icons mt-3">

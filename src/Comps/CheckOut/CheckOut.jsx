@@ -156,22 +156,10 @@ const CheckOut = () => {
                     </div>
                   </form>
                   <div className="photos d-flex">
-                    <img
-                      src="https://s3-alpha-sig.figma.com/img/bacb/ff99/a8fc8e50822cb2d2d168e5d0e8bf7ea6?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=QRTYKSiAu7op39LEyVqihYwCN1RUi3KlrStiqiZ5TChpwEB9zsH9dXsgBiIwvOaxkdHVwEb1XCWPbiwNW6i-BJVchKu3cFHtjHsUzFLhMj4fEc9uBvS~hOukcn9fpGSjybVkK5KR1DHNRd-9wpIQhYWZzlGgRPTOuxLFhGeaIeoH9j0hoRryJReIiihOjxkWPGvDd9m1f6FXuaLlL1Hx5lBGRFv7keRwG0kl-mlcF6EEdkyf9~JQ~9yT8zqI3m1J9lAhdhcxP-oseFQXXEYs-7l-pvIDHhKLjfgPVfQNEwNdKLr6dpPrSkgKc1PrVdoywxwWtcaILy14U0Gi6YRhrA__"
-                      alt=""
-                    />
-                    <img
-                      src="https://s3-alpha-sig.figma.com/img/cfb0/a6ee/01b240273b40dab07f8246ef98aed88a?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Jdob1WlaWUqRnDFAW4EkAPFcC6Zq-fsDb2MnZ7z9AnomyqBhxKj0WvlcGWVC~JUFBUC8IibaW~5g-n6aTutYNJEgUiz1lBgfNiuNZJblPB4PwNmCvps8nBSW943Ny8EXuHhzz2opdzBjW1etOKS1PP~om1WhrNpeRRPYnvPkDqaOM5z5vluAEOxMQXQ-J8aE9FZUFryBKCC9A8nVeLJTGnlshXFK3hysOxnS4-ZPHCnvIxoPm0dwhGUnnG-Ov9TTzQn9HBJHrDUusLDNnXWxpW~pxkgBO4icJNAs9BhOF4z~G~63GN~CXKDx3wHiA-IsHXnrAgcv39fuJN7BioeSQQ__"
-                      alt=""
-                    />
-                    <img
-                      src="https://s3-alpha-sig.figma.com/img/6eef/b61d/27c754abac218d25d8ea4360de61f8e8?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IduATsfXtIJV7hNZqgatQ-pDcH7IjPJjKE3fE2wFnDrUQlnIxQJjHd9maqZ27ggn3B~~B23RnVvd-W6DW3oai5E6MjiA-kcAHn4GqQpZrI4QRmb5kTXgUtyv97qj4mAhKA-0sHQecvKJYCNt~bJhUnB7vwC0Idu8--pz7EDVgbuGxvv4PxFtCRo3G4pGkph8eHjIbXyma1JO4c8vng3K3VSKg5akL-QMX6rKZIMVqPVuI-9MDVsp3ytSMzsk-Hlfawht36xVFdr3lJ~lPtUoJeSWQlfaX~jSBziAwUBDotKXguu5lyG5fVJmINJYIeUkHdnYlH7x4pz9uz-p1iKAtw__"
-                      alt=""
-                    />
-                    <img
-                      src="https://s3-alpha-sig.figma.com/img/b28e/31b9/c88d0c9b038b82deeb0523d82cffe267?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bCm-C536jt5Rv7WgjuBQp736RH~rLJD3QskN7Q~6HAtcVaQ3jB8jJseWQB9NABZlAkaKpJ9bO5qol6ae52VRfgYy8FRGzenZQKOnC4Vc9o-IxWLCF3nmYYH1nT3xLbnnGrRm0x5KIW2mjvluqb-AbyNzRePp3rQhh~S-OG0JnG9-stlAtjBCwj6qMNDHuLE7Yqzf4AlaNqhlAyOZMb-HG6Nl8oT8PntR8GFegbbHAUCA35Qh-JSDntGc6u8~sGCrmd0~187O7DSOoeSSMt1P6XtzbNZppEcz8V--ijcfDZ5zbciaHuXHNKRCRq~dB5nnB78MamZgFaajMwnHmtx-pw__"
-                      alt=""
-                    />
+                    <img src="/images/appstore.png" alt="Payment method" />
+                    <img src="/images/googleapp.png" alt="Payment method" />
+                    <img src="/images/QR.jpg" alt="Payment method" />
+                    <img src="/images/download.png" alt="Payment method" />
                   </div>
                 </div>
               </div>

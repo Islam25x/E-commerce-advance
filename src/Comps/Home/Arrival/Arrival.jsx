@@ -11,7 +11,10 @@ const Arrival = () => {
                 <h2 className="title mt-3">New Arrival</h2>
                 <Row>
                     <Col lg={6} md={12} sm={12}>
-                        <div className="left">
+                        <div
+                            className="left"
+                            style={{ backgroundImage: "url(/images/playstation.png)" }}
+                        >
                             <div className="left-ctn">
                                 <h4>PlayStation 5</h4>
                                 <p>Black and White version of the PS5 coming out on sale.</p>
@@ -22,7 +25,7 @@ const Arrival = () => {
                     <Col lg={6} md={12} sm={12}>
                         <div className="right">
                             <div className="right-top">
-                                <img className='right-top-photo' src="images/08463f7e8f57dd3048a2444dbfa0cb90.jpg" alt="" />
+                                <img className='right-top-photo' src="/images/08463f7e8f57dd3048a2444dbfa0cb90.jpg" alt="" />
                                 <div className="right-top-ctn">
                                     <h4>Women’s Collections</h4>
                                     <p>Featured woman collections that give you another vibe.</p>
@@ -32,7 +35,10 @@ const Arrival = () => {
                             <div className="right-bottom">
                                 <Row>
                                     <Col lg={6} md={12} sm={12}>
-                                        <div className="right-bottom-left">
+                                        <div
+                                            className="right-bottom-left"
+                                            style={{ backgroundImage: "url(/images/Speakers.png)" }}
+                                        >
                                             <div className="right-bottom-left-ctn">
                                                 <h4>Speakers</h4>
                                                 <p>Amazon wireless speakers</p>
@@ -41,7 +47,10 @@ const Arrival = () => {
                                         </div>
                                     </Col>
                                     <Col lg={6} md={12} sm={12}>
-                                        <div className="right-bottom-right">
+                                        <div
+                                            className="right-bottom-right"
+                                            style={{ backgroundImage: "url(/images/Perfum.png)" }}
+                                        >
                                             <div className="right-bottom-right-ctn">
                                                 <h4>Perfume</h4>
                                                 <p>GUCCI INTENSE OUD EDP</p>

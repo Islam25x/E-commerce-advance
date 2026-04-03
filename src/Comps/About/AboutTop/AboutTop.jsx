@@ -21,7 +21,7 @@ const AboutTop = () => {
                         </p>
                     </Col>
                     <Col lg={6} md={6} sm={12}>
-                        <img src="https://s3-alpha-sig.figma.com/img/fcc8/9aaa/7b85f8c1dcce81e71e2eb178be13bd4d?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BDfni8rCU~Hd8HmQTcRKmSfBOaZ4d02Syon5uMAK2LNwD43wfI6FDzVfxZLi6DUewrq0-WYSgyqF5bkqTswS5OXRyq4Gr95f2QVLDBezcTR7~NEUp0XM0jYBbrffYGGPlZfx7CPTjClheGC0WnIkd2XNJyL4uNOoN4goD3rW820-1xNfHGMhaqMuas7fjTDl~jrOIjsM8VQXDMQjhnmMsgLe03fJQXHyd345TIXqkLWFFlryPApTIw7EB9cF3x4uKaZoHtddrDuBI59MUrXMug7mWVWRAaGetU76aIBk4s1Pz9DvTAa90SS6GxWi~q4yQwS~DTu0LQMGMWGfdzbXBA__" alt="About" />
+                        <img src="/images/playstation.png" alt="About" />
                     </Col>
                 </Row>
             </Container>

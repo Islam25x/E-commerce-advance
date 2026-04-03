@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }  
 #Login{
     padding-bottom: 2rem;
@@ -76,3 +76,14 @@
     #Login .btns p:hover{
         color: #b71c1c;
     }
+
+@media (max-width: 991px) {
+    #Login img {
+        height: auto;
+    }
+
+    #Login .right-side {
+        padding-top: 2rem;
+        width: 100%;
+    }
+}

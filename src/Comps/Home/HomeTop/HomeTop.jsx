@@ -103,7 +103,7 @@ const HomeTop = () => {
                     src={slide.carImage}
                     alt={slide.carTitle}
                   />
-                  <div className="silde-content">
+                  <div className="slide-content">
                     <div className="top d-flex">
                       <img src={slide.TitleImage} alt={slide.TitleImage} />
                       <p className="title">{slide.carTitle}</p>

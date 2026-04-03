@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: 0;
+    box-sizing: border-box;
 }  
 #SignUp{
   padding-bottom: 2rem;
@@ -108,4 +108,15 @@
 .google-button:active {
   background-color: #e8e9ea;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 991px) {
+  #SignUp img {
+    height: auto;
+  }
+
+  #SignUp .right-side {
+    padding-top: 2rem;
+    width: 100%;
+  }
 }
